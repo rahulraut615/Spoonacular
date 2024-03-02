@@ -1,0 +1,27 @@
+.image{
+    background-image: url("../../assets/back.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  object-fit: cover;  
+  overflow-y: auto;
+}
+.div {
+  height: 32vh;
+  /* background-color: aliceblue;
+  padding-left: 0px; */
+}
+.cardimage {
+  max-height: 100%;
+}
+.textcol{
+  color: white;
+}
+.texs{
+  font-size: 10px;
+  margin-top: 0px;
+  padding: 0px;
+}

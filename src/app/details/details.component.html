@@ -1,0 +1,30 @@
+<div class="image d-flex justify-content-center" >
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-12 d-flex justify-content-center textcol mt-2">
+            <h4>{{title}}</h4>
+        </div>
+        <div class="col-md-12 d-flex justify-content-center div textcol mt-2">
+            <img [src]="image" class="cardimage" alt="">
+        </div>
+
+        <div class="col-md-12 d-flex justify-content-center textcol">
+            <h4 class="text-center d-flex justify-content-center mt-2">Ingridiants</h4>
+        </div>
+
+        <ul *ngFor="let list of ingrediants" class=" col-md-12 d-flex justify-content-center">
+            <small class=" texs textcol d-flex justify-content-center">{{list.name}}</small>
+        </ul>
+
+        <div class="col-md-12 d-flex justify-content-center textcol">
+            <h4 class="text-center d-flex justify-content-center mt-2">Steps</h4>
+        </div>
+       
+        <ul *ngFor="let list of steps" class=" col-md-12 d-flex justify-content-center">
+            <small class=" texs textcol d-flex justify-content-center">{{list.step}}</small>
+        </ul>
+     </div>
+
+   
+</div>
+</div>
